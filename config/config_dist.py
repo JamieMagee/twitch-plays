@@ -1,5 +1,5 @@
 config = {
-    
+
     'irc': {
         'server': 'irc.twitch.tv',
         'port': 6667

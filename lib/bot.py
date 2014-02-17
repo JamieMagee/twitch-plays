@@ -1,8 +1,9 @@
-from irc import Irc
-from game import Game
-from misc import pp, pbot, pbutton
+from lib.irc import Irc
+from lib.game import Game
+from lib.misc import pbutton
 
 import time
+
 
 class Bot:
 
@@ -19,7 +20,6 @@ class Bot:
             
             if new_messages:
                 for message in new_messages:
-                
                     button = message['message'].lower()
                     username = message['username']
 
